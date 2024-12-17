@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to LostBoy Tech!</title>
+
+</head>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #4a90e2, #50e3c2);
+}
+
+.welcome-container {
+    color: #fff;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.text-container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+    animation: slideIn 1s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+#button{
+  background: linear-gradient(to right, #4a90e2, #50e3c2);
+  border-radius: 25px;
+  font-size: 1.7em;
+}
+</style>
+<body>
+    <div class="welcome-container">
+        <h1>Welcome to LostBoy Tech!</h1>
+        <p>At LostBoy Tech, we believe in creating a vibrant community where technology meets fun and learning. Here’s why you’ll love being a part of our family:</p>
+    </div>
+    <div class="content-container">
+        <div class="text-container">
+            <h2>Why Choose LostBoy Tech?</h2>
+            <ul>
+                <li>Exciting Giveaways: We host regular giveaways to reward our amazing members with cool tech goodies!</li>
+                <li>Fun Admins: Our admins are not just here to help; they make the experience enjoyable with their friendly and engaging personalities.</li>
+                <li>Free Bug Bot Scripts: Access a variety of free scripts to enhance your tech projects and streamline your work.</li>
+                <li>Free Courses: Dive into our educational resources, where you can learn new skills and expand your knowledge at no cost!</li>
+            </ul>
+        </div>
+        <div class="text-container">
+            <h2>What is LostBoy Tech?</h2>
+            <p>LostBoy Tech is a hub for tech enthusiasts, innovators, and learners. We harness the power of collaboration and creativity.</p>
+        </div>
+    </div>
+    <br>
+  
+    <a href="buttons.html">
+      <button id="button">LETS GO!</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
